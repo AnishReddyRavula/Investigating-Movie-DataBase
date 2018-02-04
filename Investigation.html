@@ -11811,7 +11811,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[41]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -11857,7 +11857,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[42]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Loading the data from csv file</span>
@@ -11876,7 +11876,7 @@ div#notebook {
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[2]:</div>
+<div class="prompt output_prompt">Out[42]:</div>
 
 
 
@@ -11942,10 +11942,10 @@ div#notebook {
       <td>Universal Studios|Amblin Entertainment|Legenda...</td>
       <td>6/9/15</td>
       <td>5562</td>
-      <td>6.5</td>
+      <td>6.500000</td>
       <td>2015</td>
-      <td>1.379999e+08</td>
-      <td>1.392446e+09</td>
+      <td>137999939.280026</td>
+      <td>1392445892.523800</td>
     </tr>
     <tr>
       <th>1</th>
@@ -11966,10 +11966,10 @@ div#notebook {
       <td>Village Roadshow Pictures|Kennedy Miller Produ...</td>
       <td>5/13/15</td>
       <td>6185</td>
-      <td>7.1</td>
+      <td>7.100000</td>
       <td>2015</td>
-      <td>1.379999e+08</td>
-      <td>3.481613e+08</td>
+      <td>137999939.280026</td>
+      <td>348161292.489031</td>
     </tr>
     <tr>
       <th>2</th>
@@ -11990,10 +11990,10 @@ div#notebook {
       <td>Summit Entertainment|Mandeville Films|Red Wago...</td>
       <td>3/18/15</td>
       <td>2480</td>
-      <td>6.3</td>
+      <td>6.300000</td>
       <td>2015</td>
-      <td>1.012000e+08</td>
-      <td>2.716190e+08</td>
+      <td>101199955.472019</td>
+      <td>271619025.407628</td>
     </tr>
     <tr>
       <th>3</th>
@@ -12014,10 +12014,10 @@ div#notebook {
       <td>Lucasfilm|Truenorth Productions|Bad Robot</td>
       <td>12/15/15</td>
       <td>5292</td>
-      <td>7.5</td>
+      <td>7.500000</td>
       <td>2015</td>
-      <td>1.839999e+08</td>
-      <td>1.902723e+09</td>
+      <td>183999919.040035</td>
+      <td>1902723129.801820</td>
     </tr>
     <tr>
       <th>4</th>
@@ -12038,10 +12038,10 @@ div#notebook {
       <td>Universal Pictures|Original Film|Media Rights ...</td>
       <td>4/1/15</td>
       <td>2947</td>
-      <td>7.3</td>
+      <td>7.300000</td>
       <td>2015</td>
-      <td>1.747999e+08</td>
-      <td>1.385749e+09</td>
+      <td>174799923.088033</td>
+      <td>1385748801.470520</td>
     </tr>
   </tbody>
 </table>
@@ -12078,7 +12078,7 @@ Lets check for any null or missing values in the datase</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[43]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tmdb_data</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
@@ -12094,7 +12094,7 @@ Lets check for any null or missing values in the datase</p>
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[3]:</div>
+<div class="prompt output_prompt">Out[43]:</div>
 
 
 
@@ -12134,105 +12134,105 @@ Lets check for any null or missing values in the datase</p>
       <th>count</th>
       <td>10866.000000</td>
       <td>10866.000000</td>
-      <td>1.086600e+04</td>
-      <td>1.086600e+04</td>
       <td>10866.000000</td>
       <td>10866.000000</td>
       <td>10866.000000</td>
       <td>10866.000000</td>
-      <td>1.086600e+04</td>
-      <td>1.086600e+04</td>
+      <td>10866.000000</td>
+      <td>10866.000000</td>
+      <td>10866.000000</td>
+      <td>10866.000000</td>
     </tr>
     <tr>
       <th>mean</th>
       <td>66064.177434</td>
       <td>0.646441</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>102.070863</td>
       <td>217.389748</td>
       <td>5.974922</td>
       <td>2001.322658</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>std</th>
       <td>92130.136561</td>
       <td>1.000185</td>
-      <td>3.091321e+07</td>
-      <td>1.170035e+08</td>
+      <td>30913213.831437</td>
+      <td>117003486.582085</td>
       <td>31.381405</td>
       <td>575.619058</td>
       <td>0.935142</td>
       <td>12.812941</td>
-      <td>3.430616e+07</td>
-      <td>1.446325e+08</td>
+      <td>34306155.722844</td>
+      <td>144632485.039975</td>
     </tr>
     <tr>
       <th>min</th>
       <td>5.000000</td>
       <td>0.000065</td>
-      <td>0.000000e+00</td>
-      <td>0.000000e+00</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
       <td>0.000000</td>
       <td>10.000000</td>
       <td>1.500000</td>
       <td>1960.000000</td>
-      <td>0.000000e+00</td>
-      <td>0.000000e+00</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
     </tr>
     <tr>
       <th>25%</th>
       <td>10596.250000</td>
       <td>0.207583</td>
-      <td>0.000000e+00</td>
-      <td>0.000000e+00</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
       <td>90.000000</td>
       <td>17.000000</td>
       <td>5.400000</td>
       <td>1995.000000</td>
-      <td>0.000000e+00</td>
-      <td>0.000000e+00</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>20669.000000</td>
       <td>0.383856</td>
-      <td>0.000000e+00</td>
-      <td>0.000000e+00</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
       <td>99.000000</td>
       <td>38.000000</td>
       <td>6.000000</td>
       <td>2006.000000</td>
-      <td>0.000000e+00</td>
-      <td>0.000000e+00</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>75610.000000</td>
       <td>0.713817</td>
-      <td>1.500000e+07</td>
-      <td>2.400000e+07</td>
+      <td>15000000.000000</td>
+      <td>24000000.000000</td>
       <td>111.000000</td>
       <td>145.750000</td>
       <td>6.600000</td>
       <td>2011.000000</td>
-      <td>2.085325e+07</td>
-      <td>3.369710e+07</td>
+      <td>20853251.084404</td>
+      <td>33697095.717312</td>
     </tr>
     <tr>
       <th>max</th>
       <td>417859.000000</td>
       <td>32.985763</td>
-      <td>4.250000e+08</td>
-      <td>2.781506e+09</td>
+      <td>425000000.000000</td>
+      <td>2781505847.000000</td>
       <td>900.000000</td>
       <td>9767.000000</td>
       <td>9.200000</td>
       <td>2015.000000</td>
-      <td>4.250000e+08</td>
-      <td>2.827124e+09</td>
+      <td>425000000.000000</td>
+      <td>2827123750.411890</td>
     </tr>
   </tbody>
 </table>
@@ -12247,7 +12247,7 @@ Lets check for any null or missing values in the datase</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[44]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">mean_data</span> <span class="o">=</span> <span class="n">tmdb_data</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">skipna</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -12260,7 +12260,7 @@ Lets check for any null or missing values in the datase</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[45]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tmdb_data</span><span class="p">[</span><span class="s1">&#39;budget&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">tmdb_data</span><span class="o">.</span><span class="n">budget</span><span class="o">.</span><span class="n">mask</span><span class="p">(</span><span class="n">tmdb_data</span><span class="o">.</span><span class="n">budget</span> <span class="o">&lt;</span> <span class="mi">100</span><span class="p">,</span> <span class="n">mean_data</span><span class="o">.</span><span class="n">budget</span><span class="p">)</span>
@@ -12277,7 +12277,7 @@ Lets check for any null or missing values in the datase</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[46]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tmdb_data</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
@@ -12293,7 +12293,7 @@ Lets check for any null or missing values in the datase</p>
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[6]:</div>
+<div class="prompt output_prompt">Out[46]:</div>
 
 
 
@@ -12333,105 +12333,105 @@ Lets check for any null or missing values in the datase</p>
       <th>count</th>
       <td>10866.000000</td>
       <td>10866.000000</td>
-      <td>1.086600e+04</td>
-      <td>1.086600e+04</td>
       <td>10866.000000</td>
       <td>10866.000000</td>
       <td>10866.000000</td>
       <td>10866.000000</td>
-      <td>1.086600e+04</td>
-      <td>1.086600e+04</td>
+      <td>10866.000000</td>
+      <td>10866.000000</td>
+      <td>10866.000000</td>
+      <td>10866.000000</td>
     </tr>
     <tr>
       <th>mean</th>
       <td>66064.177434</td>
       <td>0.646441</td>
-      <td>2.235447e+07</td>
-      <td>6.200725e+07</td>
+      <td>22354467.382164</td>
+      <td>62007247.080656</td>
       <td>102.661838</td>
       <td>217.389748</td>
       <td>5.974922</td>
       <td>2001.322658</td>
-      <td>2.682082e+07</td>
-      <td>7.997260e+07</td>
+      <td>26820818.623043</td>
+      <td>79972602.296036</td>
     </tr>
     <tr>
       <th>std</th>
       <td>92130.136561</td>
       <td>1.000185</td>
-      <td>2.797925e+07</td>
-      <td>1.109690e+08</td>
+      <td>27979250.085824</td>
+      <td>110969027.254057</td>
       <td>30.415838</td>
       <td>575.619058</td>
       <td>0.935142</td>
       <td>12.812941</td>
-      <td>3.046746e+07</td>
-      <td>1.364935e+08</td>
+      <td>30467464.342343</td>
+      <td>136493479.100997</td>
     </tr>
     <tr>
       <th>min</th>
       <td>5.000000</td>
       <td>0.000065</td>
-      <td>1.080000e+02</td>
-      <td>1.000000e+02</td>
+      <td>108.000000</td>
+      <td>100.000000</td>
       <td>5.000000</td>
       <td>10.000000</td>
       <td>1.500000</td>
       <td>1960.000000</td>
-      <td>1.039001e+02</td>
-      <td>1.141961e+02</td>
+      <td>103.900086</td>
+      <td>114.196069</td>
     </tr>
     <tr>
       <th>25%</th>
       <td>10596.250000</td>
       <td>0.207583</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>90.000000</td>
       <td>17.000000</td>
       <td>5.400000</td>
       <td>1995.000000</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>20669.000000</td>
       <td>0.383856</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>99.000000</td>
       <td>38.000000</td>
       <td>6.000000</td>
       <td>2006.000000</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>75610.000000</td>
       <td>0.713817</td>
-      <td>1.500000e+07</td>
-      <td>3.982332e+07</td>
+      <td>15000000.000000</td>
+      <td>39823319.793392</td>
       <td>111.000000</td>
       <td>145.750000</td>
       <td>6.600000</td>
       <td>2011.000000</td>
-      <td>2.085325e+07</td>
-      <td>5.136436e+07</td>
+      <td>20853251.084404</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>max</th>
       <td>417859.000000</td>
       <td>32.985763</td>
-      <td>4.250000e+08</td>
-      <td>2.781506e+09</td>
+      <td>425000000.000000</td>
+      <td>2781505847.000000</td>
       <td>900.000000</td>
       <td>9767.000000</td>
       <td>9.200000</td>
       <td>2015.000000</td>
-      <td>4.250000e+08</td>
-      <td>2.827124e+09</td>
+      <td>425000000.000000</td>
+      <td>2827123750.411890</td>
     </tr>
   </tbody>
 </table>
@@ -12446,7 +12446,7 @@ Lets check for any null or missing values in the datase</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[47]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tmdb_data</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
@@ -12462,7 +12462,7 @@ Lets check for any null or missing values in the datase</p>
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[7]:</div>
+<div class="prompt output_prompt">Out[47]:</div>
 
 
 
@@ -12522,7 +12522,7 @@ Most of the data that is missing is not relevant for my analysis anyway</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[48]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># After discussing the structure of the data and any problems that need to be</span>
@@ -12542,7 +12542,7 @@ Most of the data that is missing is not relevant for my analysis anyway</p>
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[8]:</div>
+<div class="prompt output_prompt">Out[48]:</div>
 
 
 
@@ -12588,7 +12588,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[49]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tmdb_data</span> <span class="o">=</span> <span class="n">tmdb_data</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s1">&#39;keywords&#39;</span><span class="p">,</span><span class="s1">&#39;production_companies&#39;</span><span class="p">,</span><span class="s1">&#39;tagline&#39;</span><span class="p">,</span> <span class="s1">&#39;homepage&#39;</span><span class="p">,</span> <span class="s1">&#39;overview&#39;</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
@@ -12640,7 +12640,7 @@ memory usage: 1.4+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[50]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tmdb_data</span><span class="p">[</span><span class="n">tmdb_data</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">any</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)]</span>
@@ -12656,7 +12656,7 @@ memory usage: 1.4+ MB
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[10]:</div>
+<div class="prompt output_prompt">Out[50]:</div>
 
 
 
@@ -12703,8 +12703,8 @@ memory usage: 1.4+ MB
       <td>345637</td>
       <td>tt4661600</td>
       <td>0.422901</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Sanjay's Super Team</td>
       <td>NaN</td>
       <td>Sanjay Patel</td>
@@ -12712,18 +12712,18 @@ memory usage: 1.4+ MB
       <td>Animation</td>
       <td>11/25/15</td>
       <td>47</td>
-      <td>6.9</td>
+      <td>6.900000</td>
       <td>2015</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>424</th>
       <td>363869</td>
       <td>tt4835298</td>
       <td>0.244648</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Belli di papÃ</td>
       <td>Diego Abatantuono|Matilde Gioli|Andrea Pisani|...</td>
       <td>Guido Chiesa</td>
@@ -12731,18 +12731,18 @@ memory usage: 1.4+ MB
       <td>NaN</td>
       <td>10/29/15</td>
       <td>21</td>
-      <td>6.1</td>
+      <td>6.100000</td>
       <td>2015</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>441</th>
       <td>355020</td>
       <td>tt4908644</td>
       <td>0.220751</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Winter on Fire: Ukraine's Fight for Freedom</td>
       <td>NaN</td>
       <td>Evgeny Afineevsky</td>
@@ -12750,18 +12750,18 @@ memory usage: 1.4+ MB
       <td>Documentary</td>
       <td>10/9/15</td>
       <td>37</td>
-      <td>8.2</td>
+      <td>8.200000</td>
       <td>2015</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>465</th>
       <td>321109</td>
       <td>tt4393514</td>
       <td>0.201696</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Bitter Lake</td>
       <td>NaN</td>
       <td>Adam Curtis</td>
@@ -12769,18 +12769,18 @@ memory usage: 1.4+ MB
       <td>Documentary</td>
       <td>1/24/15</td>
       <td>19</td>
-      <td>7.8</td>
+      <td>7.800000</td>
       <td>2015</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>532</th>
       <td>320996</td>
       <td>tt4073952</td>
       <td>0.126594</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Iliza Shlesinger: Freezing Hot</td>
       <td>Iliza Shlesinger</td>
       <td>NaN</td>
@@ -12788,18 +12788,18 @@ memory usage: 1.4+ MB
       <td>Comedy</td>
       <td>1/23/15</td>
       <td>14</td>
-      <td>6.6</td>
+      <td>6.600000</td>
       <td>2015</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>536</th>
       <td>333350</td>
       <td>tt3762974</td>
       <td>0.122543</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>A Faster Horse</td>
       <td>NaN</td>
       <td>David Gelb</td>
@@ -12807,18 +12807,18 @@ memory usage: 1.4+ MB
       <td>Documentary</td>
       <td>10/8/15</td>
       <td>12</td>
-      <td>8.0</td>
+      <td>8.000000</td>
       <td>2015</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>538</th>
       <td>224972</td>
       <td>tt3983674</td>
       <td>0.114264</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>The Mask You Live In</td>
       <td>NaN</td>
       <td>Jennifer Siebel Newsom</td>
@@ -12826,18 +12826,18 @@ memory usage: 1.4+ MB
       <td>Documentary</td>
       <td>1/1/15</td>
       <td>11</td>
-      <td>8.9</td>
+      <td>8.900000</td>
       <td>2015</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>556</th>
       <td>321160</td>
       <td>tt3908634</td>
       <td>0.100910</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>With This Ring</td>
       <td>Regina Hall|Jill Scott|Eve|Brooklyn Sudano|Dei...</td>
       <td>NaN</td>
@@ -12845,18 +12845,18 @@ memory usage: 1.4+ MB
       <td>Comedy|Romance</td>
       <td>1/24/15</td>
       <td>14</td>
-      <td>6.5</td>
+      <td>6.500000</td>
       <td>2015</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>587</th>
       <td>319091</td>
       <td>tt4185572</td>
       <td>0.062536</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>The Hunting Ground</td>
       <td>NaN</td>
       <td>Kirby Dick</td>
@@ -12864,18 +12864,18 @@ memory usage: 1.4+ MB
       <td>Documentary</td>
       <td>2/27/15</td>
       <td>39</td>
-      <td>7.8</td>
+      <td>7.800000</td>
       <td>2015</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>600</th>
       <td>332479</td>
       <td>tt4550996</td>
       <td>0.047256</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Star Wars: TIE Fighter</td>
       <td>NaN</td>
       <td>Paul Johnson</td>
@@ -12883,18 +12883,18 @@ memory usage: 1.4+ MB
       <td>Science Fiction|Action|Animation</td>
       <td>3/24/15</td>
       <td>29</td>
-      <td>7.6</td>
+      <td>7.600000</td>
       <td>2015</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>620</th>
       <td>361043</td>
       <td>tt5022680</td>
       <td>0.129696</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>All Hallows' Eve 2</td>
       <td>NaN</td>
       <td>Antonio Padovan|Bryan Norton|Marc Roussel|Ryan...</td>
@@ -12902,18 +12902,18 @@ memory usage: 1.4+ MB
       <td>NaN</td>
       <td>10/6/15</td>
       <td>13</td>
-      <td>5.0</td>
+      <td>5.000000</td>
       <td>2015</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>1032</th>
       <td>259910</td>
       <td>tt3591568</td>
       <td>0.291253</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Marvel Studios: Assembling a Universe</td>
       <td>Robert Downey Jr.|Chris Hemsworth|Chris Evans|...</td>
       <td>NaN</td>
@@ -12921,18 +12921,18 @@ memory usage: 1.4+ MB
       <td>TV Movie|Documentary</td>
       <td>3/18/14</td>
       <td>32</td>
-      <td>6.3</td>
+      <td>6.300000</td>
       <td>2014</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>1054</th>
       <td>253675</td>
       <td>tt3711030</td>
       <td>0.269468</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Unlocking Sherlock</td>
       <td>Benedict Cumberbatch|Martin Freeman|Steven Mof...</td>
       <td>NaN</td>
@@ -12940,18 +12940,18 @@ memory usage: 1.4+ MB
       <td>TV Movie|Documentary</td>
       <td>1/19/14</td>
       <td>11</td>
-      <td>7.2</td>
+      <td>7.200000</td>
       <td>2014</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>1088</th>
       <td>169607</td>
       <td>tt2714900</td>
       <td>0.226028</td>
-      <td>1.462570e+07</td>
-      <td>1.503616e+06</td>
+      <td>14625701.094147</td>
+      <td>1503616.000000</td>
       <td>Finding Vivian Maier</td>
       <td>NaN</td>
       <td>John Maloof|Charlie Siskel</td>
@@ -12959,18 +12959,18 @@ memory usage: 1.4+ MB
       <td>Documentary</td>
       <td>3/28/14</td>
       <td>70</td>
-      <td>7.8</td>
+      <td>7.800000</td>
       <td>2014</td>
-      <td>1.755104e+07</td>
-      <td>1.384967e+06</td>
+      <td>17551039.822887</td>
+      <td>1384967.241397</td>
     </tr>
     <tr>
       <th>1173</th>
       <td>261041</td>
       <td>tt3576038</td>
       <td>0.159037</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>The Search for General Tso</td>
       <td>NaN</td>
       <td>Ian Cheney</td>
@@ -12978,18 +12978,18 @@ memory usage: 1.4+ MB
       <td>Documentary</td>
       <td>4/20/14</td>
       <td>14</td>
-      <td>6.9</td>
+      <td>6.900000</td>
       <td>2014</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>1177</th>
       <td>269711</td>
       <td>tt3723996</td>
       <td>0.153047</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>JohnnyExpress</td>
       <td>NaN</td>
       <td>Kyungmin Woo</td>
@@ -12997,18 +12997,18 @@ memory usage: 1.4+ MB
       <td>Animation|Comedy|Science Fiction</td>
       <td>5/8/14</td>
       <td>14</td>
-      <td>7.8</td>
+      <td>7.800000</td>
       <td>2014</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>1190</th>
       <td>250761</td>
       <td>tt3279124</td>
       <td>0.137962</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Last Days in Vietnam</td>
       <td>NaN</td>
       <td>Rory Kennedy</td>
@@ -13016,18 +13016,18 @@ memory usage: 1.4+ MB
       <td>War|Documentary</td>
       <td>9/5/14</td>
       <td>20</td>
-      <td>5.9</td>
+      <td>5.900000</td>
       <td>2014</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>1203</th>
       <td>256561</td>
       <td>tt3203290</td>
       <td>0.119891</td>
-      <td>1.500000e+05</td>
-      <td>3.982332e+07</td>
+      <td>150000.000000</td>
+      <td>39823319.793392</td>
       <td>Free to Play</td>
       <td>Benedict Lim|Danil Ishutin|Clinton Loomis</td>
       <td>NaN</td>
@@ -13035,18 +13035,18 @@ memory usage: 1.4+ MB
       <td>Documentary</td>
       <td>3/19/14</td>
       <td>40</td>
-      <td>7.0</td>
+      <td>7.000000</td>
       <td>2014</td>
-      <td>1.381637e+05</td>
-      <td>5.136436e+07</td>
+      <td>138163.657616</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>1208</th>
       <td>282297</td>
       <td>tt3302820</td>
       <td>0.116190</td>
-      <td>1.170000e+02</td>
-      <td>3.982332e+07</td>
+      <td>117.000000</td>
+      <td>39823319.793392</td>
       <td>Cowspiracy: The Sustainability Secret</td>
       <td>NaN</td>
       <td>Kip Anderson|Keegan Kuhn</td>
@@ -13054,18 +13054,18 @@ memory usage: 1.4+ MB
       <td>Documentary</td>
       <td>7/1/14</td>
       <td>66</td>
-      <td>7.6</td>
+      <td>7.600000</td>
       <td>2014</td>
-      <td>1.077677e+02</td>
-      <td>5.136436e+07</td>
+      <td>107.767653</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>1236</th>
       <td>250665</td>
       <td>tt3399112</td>
       <td>0.093062</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>No No: A Dockumentary</td>
       <td>NaN</td>
       <td>Jeffrey Radice</td>
@@ -13073,18 +13073,18 @@ memory usage: 1.4+ MB
       <td>Documentary</td>
       <td>1/20/14</td>
       <td>13</td>
-      <td>6.7</td>
+      <td>6.700000</td>
       <td>2014</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>1241</th>
       <td>296370</td>
       <td>tt3024964</td>
       <td>0.135376</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Dance-Off</td>
       <td>Kathryn McCormick|Shane Harper|Finola Hughes|C...</td>
       <td>NaN</td>
@@ -13092,18 +13092,18 @@ memory usage: 1.4+ MB
       <td>Romance|Music|Comedy</td>
       <td>1/1/14</td>
       <td>18</td>
-      <td>5.7</td>
+      <td>5.700000</td>
       <td>2014</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>1256</th>
       <td>299729</td>
       <td>tt3995006</td>
       <td>0.076280</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Banksy Does New York</td>
       <td>NaN</td>
       <td>Chris Moukarbel</td>
@@ -13111,18 +13111,18 @@ memory usage: 1.4+ MB
       <td>Documentary</td>
       <td>11/17/14</td>
       <td>22</td>
-      <td>6.8</td>
+      <td>6.800000</td>
       <td>2014</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>1288</th>
       <td>301235</td>
       <td>tt4217172</td>
       <td>0.038364</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Top Gear: The Perfect Road Trip 2</td>
       <td>Jeremy Clarkson|Richard Hammond</td>
       <td>NaN</td>
@@ -13130,18 +13130,18 @@ memory usage: 1.4+ MB
       <td>Documentary</td>
       <td>11/17/14</td>
       <td>12</td>
-      <td>6.8</td>
+      <td>6.800000</td>
       <td>2014</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>1315</th>
       <td>250745</td>
       <td>tt2171902</td>
       <td>0.008000</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Happy Valley</td>
       <td>NaN</td>
       <td>Amir Bar-Lev</td>
@@ -13149,18 +13149,18 @@ memory usage: 1.4+ MB
       <td>Documentary</td>
       <td>11/14/14</td>
       <td>14</td>
-      <td>6.0</td>
+      <td>6.000000</td>
       <td>2014</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>1316</th>
       <td>245158</td>
       <td>tt2925642</td>
       <td>0.007622</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Kids for Cash</td>
       <td>NaN</td>
       <td>Robert May</td>
@@ -13168,18 +13168,18 @@ memory usage: 1.4+ MB
       <td>Documentary|Thriller</td>
       <td>2/7/14</td>
       <td>12</td>
-      <td>7.1</td>
+      <td>7.100000</td>
       <td>2014</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>1319</th>
       <td>320420</td>
       <td>tt3249478</td>
       <td>0.005844</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Love Me</td>
       <td>NaN</td>
       <td>Jonathon Narducci</td>
@@ -13187,18 +13187,18 @@ memory usage: 1.4+ MB
       <td>Documentary</td>
       <td>4/6/14</td>
       <td>13</td>
-      <td>7.0</td>
+      <td>7.000000</td>
       <td>2014</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>1326</th>
       <td>250668</td>
       <td>tt2548738</td>
       <td>0.023872</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Rich Hill</td>
       <td>NaN</td>
       <td>Tracy Droz Tragos|Andrew Droz Palermo</td>
@@ -13206,18 +13206,18 @@ memory usage: 1.4+ MB
       <td>Documentary</td>
       <td>1/19/14</td>
       <td>14</td>
-      <td>7.1</td>
+      <td>7.100000</td>
       <td>2014</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>1327</th>
       <td>258614</td>
       <td>tt2966760</td>
       <td>0.003504</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Pantani: The Accidental Death of a Cyclist</td>
       <td>NaN</td>
       <td>James Erskine</td>
@@ -13225,18 +13225,18 @@ memory usage: 1.4+ MB
       <td>Documentary</td>
       <td>2/17/14</td>
       <td>11</td>
-      <td>6.5</td>
+      <td>6.500000</td>
       <td>2014</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>1385</th>
       <td>20785</td>
       <td>tt0075988</td>
       <td>0.002457</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Emmet Otter's Jug-Band Christmas</td>
       <td>NaN</td>
       <td>Jim Henson</td>
@@ -13244,18 +13244,18 @@ memory usage: 1.4+ MB
       <td>Drama|Comedy|Family</td>
       <td>1/1/77</td>
       <td>10</td>
-      <td>7.5</td>
+      <td>7.500000</td>
       <td>1977</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>1712</th>
       <td>21634</td>
       <td>tt1073510</td>
       <td>0.302095</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Prayers for Bobby</td>
       <td>Ryan Kelley|Sigourney Weaver|Henry Czerny|Dan ...</td>
       <td>Russell Mulcahy</td>
@@ -13263,10 +13263,10 @@ memory usage: 1.4+ MB
       <td>NaN</td>
       <td>2/27/09</td>
       <td>57</td>
-      <td>7.4</td>
+      <td>7.400000</td>
       <td>2009</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>...</th>
@@ -13292,8 +13292,8 @@ memory usage: 1.4+ MB
       <td>38580</td>
       <td>tt0816562</td>
       <td>0.371028</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>The Little Matchgirl</td>
       <td>NaN</td>
       <td>Roger Allers</td>
@@ -13301,18 +13301,18 @@ memory usage: 1.4+ MB
       <td>Drama|Animation</td>
       <td>9/7/06</td>
       <td>15</td>
-      <td>6.5</td>
+      <td>6.500000</td>
       <td>2006</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>6870</th>
       <td>14518</td>
       <td>tt0863136</td>
       <td>0.194447</td>
-      <td>2.300000e+06</td>
-      <td>3.982332e+07</td>
+      <td>2300000.000000</td>
+      <td>39823319.793392</td>
       <td>Peter &amp; the Wolf</td>
       <td>NaN</td>
       <td>Suzie Templeton</td>
@@ -13320,18 +13320,18 @@ memory usage: 1.4+ MB
       <td>Animation|Family|Music</td>
       <td>9/23/06</td>
       <td>11</td>
-      <td>6.7</td>
+      <td>6.700000</td>
       <td>2006</td>
-      <td>2.487839e+06</td>
-      <td>5.136436e+07</td>
+      <td>2487839.064071</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>6930</th>
       <td>53215</td>
       <td>tt1051713</td>
       <td>0.076078</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Kiwi!</td>
       <td>NaN</td>
       <td>Dony Permedi</td>
@@ -13339,18 +13339,18 @@ memory usage: 1.4+ MB
       <td>Animation|Action</td>
       <td>1/1/06</td>
       <td>15</td>
-      <td>6.7</td>
+      <td>6.700000</td>
       <td>2006</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>7579</th>
       <td>58432</td>
       <td>tt0484273</td>
       <td>0.443952</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>La hora frÃ­a</td>
       <td>Silke|Omar MuÃ±oz|Pepo Oliva|Carola Manzanares...</td>
       <td>NaN</td>
@@ -13358,18 +13358,18 @@ memory usage: 1.4+ MB
       <td>Horror|Thriller|Science Fiction|Mystery|Foreign</td>
       <td>9/14/07</td>
       <td>10</td>
-      <td>4.9</td>
+      <td>4.900000</td>
       <td>2007</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>7650</th>
       <td>12172</td>
       <td>tt1093824</td>
       <td>0.383253</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Encounters at the End of the World</td>
       <td>NaN</td>
       <td>Werner Herzog</td>
@@ -13377,18 +13377,18 @@ memory usage: 1.4+ MB
       <td>Documentary</td>
       <td>9/1/07</td>
       <td>38</td>
-      <td>6.7</td>
+      <td>6.700000</td>
       <td>2007</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>7723</th>
       <td>13016</td>
       <td>tt1166827</td>
       <td>0.197715</td>
-      <td>7.000000e+06</td>
-      <td>3.982332e+07</td>
+      <td>7000000.000000</td>
+      <td>39823319.793392</td>
       <td>Zeitgeist</td>
       <td>NaN</td>
       <td>Peter Joseph</td>
@@ -13396,18 +13396,18 @@ memory usage: 1.4+ MB
       <td>Documentary|History</td>
       <td>6/1/07</td>
       <td>104</td>
-      <td>6.9</td>
+      <td>6.900000</td>
       <td>2007</td>
-      <td>7.361680e+06</td>
-      <td>5.136436e+07</td>
+      <td>7361680.078421</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>7767</th>
       <td>282758</td>
       <td>tt0827573</td>
       <td>0.126603</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Doctor Who: The Runaway Bride</td>
       <td>David Tennant|Catherine Tate</td>
       <td>NaN</td>
@@ -13415,18 +13415,18 @@ memory usage: 1.4+ MB
       <td>Science Fiction|TV Movie</td>
       <td>7/6/07</td>
       <td>18</td>
-      <td>7.6</td>
+      <td>7.600000</td>
       <td>2007</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>7813</th>
       <td>22887</td>
       <td>tt0914809</td>
       <td>0.065543</td>
-      <td>6.000000e+03</td>
-      <td>6.000000e+03</td>
+      <td>6000.000000</td>
+      <td>6000.000000</td>
       <td>Loose Change: Final Cut</td>
       <td>NaN</td>
       <td>Dylan Avery</td>
@@ -13434,18 +13434,18 @@ memory usage: 1.4+ MB
       <td>Documentary</td>
       <td>11/11/07</td>
       <td>12</td>
-      <td>5.1</td>
+      <td>5.100000</td>
       <td>2007</td>
-      <td>6.310011e+03</td>
-      <td>6.310011e+03</td>
+      <td>6310.011496</td>
+      <td>6310.011496</td>
     </tr>
     <tr>
       <th>7814</th>
       <td>25565</td>
       <td>tt1236486</td>
       <td>0.040311</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Transformers: Beginnings</td>
       <td>Peter Cullen|Frank Welker|Mark Ryan|Patrick Ha...</td>
       <td>NaN</td>
@@ -13453,18 +13453,18 @@ memory usage: 1.4+ MB
       <td>Animation|Action|Thriller|Science Fiction</td>
       <td>10/16/07</td>
       <td>34</td>
-      <td>5.8</td>
+      <td>5.800000</td>
       <td>2007</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>7905</th>
       <td>13924</td>
       <td>tt0086855</td>
       <td>0.647261</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>The Adventures of AndrÃ© and Wally B.</td>
       <td>NaN</td>
       <td>Alvy Ray Smith</td>
@@ -13472,18 +13472,18 @@ memory usage: 1.4+ MB
       <td>Animation</td>
       <td>12/17/84</td>
       <td>32</td>
-      <td>5.3</td>
+      <td>5.300000</td>
       <td>1984</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>8234</th>
       <td>56804</td>
       <td>tt0114844</td>
       <td>0.028874</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Viaggi di nozze</td>
       <td>Carlo Verdone|Claudia Gerini|Veronica Pivetti|...</td>
       <td>Carlo Verdone</td>
@@ -13491,18 +13491,18 @@ memory usage: 1.4+ MB
       <td>NaN</td>
       <td>12/15/95</td>
       <td>44</td>
-      <td>6.7</td>
+      <td>6.700000</td>
       <td>1995</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>8292</th>
       <td>14002</td>
       <td>tt0103767</td>
       <td>0.521669</td>
-      <td>4.000000e+06</td>
-      <td>3.982332e+07</td>
+      <td>4000000.000000</td>
+      <td>39823319.793392</td>
       <td>Baraka</td>
       <td>NaN</td>
       <td>Ron Fricke</td>
@@ -13510,18 +13510,18 @@ memory usage: 1.4+ MB
       <td>Documentary</td>
       <td>9/15/92</td>
       <td>89</td>
-      <td>7.6</td>
+      <td>7.600000</td>
       <td>1992</td>
-      <td>6.216097e+06</td>
-      <td>5.136436e+07</td>
+      <td>6216097.018356</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>8614</th>
       <td>65595</td>
       <td>tt0117880</td>
       <td>0.273934</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>T2 3-D: Battle Across Time</td>
       <td>Arnold Schwarzenegger|Linda Hamilton|Edward Fu...</td>
       <td>James Cameron</td>
@@ -13529,18 +13529,18 @@ memory usage: 1.4+ MB
       <td>NaN</td>
       <td>1/1/96</td>
       <td>14</td>
-      <td>6.7</td>
+      <td>6.700000</td>
       <td>1996</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>8824</th>
       <td>48617</td>
       <td>tt0279079</td>
       <td>0.191631</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Father and Daughter</td>
       <td>NaN</td>
       <td>Michael Dudok de Wit</td>
@@ -13548,18 +13548,18 @@ memory usage: 1.4+ MB
       <td>Animation|Drama</td>
       <td>1/1/00</td>
       <td>18</td>
-      <td>6.9</td>
+      <td>6.900000</td>
       <td>2000</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>8878</th>
       <td>92208</td>
       <td>tt0250593</td>
       <td>0.038045</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Mom's Got a Date With a Vampire</td>
       <td>Matt O'Leary|Laura Vandervoort|Myles Jeffrey|C...</td>
       <td>Steve Boyum</td>
@@ -13567,18 +13567,18 @@ memory usage: 1.4+ MB
       <td>NaN</td>
       <td>10/13/00</td>
       <td>16</td>
-      <td>5.4</td>
+      <td>5.400000</td>
       <td>2000</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>8880</th>
       <td>48868</td>
       <td>tt0400231</td>
       <td>0.032577</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>The World of Stainboy</td>
       <td>NaN</td>
       <td>Tim Burton</td>
@@ -13586,18 +13586,18 @@ memory usage: 1.4+ MB
       <td>Animation</td>
       <td>1/1/00</td>
       <td>10</td>
-      <td>6.3</td>
+      <td>6.300000</td>
       <td>2000</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>9251</th>
       <td>13928</td>
       <td>tt0097674</td>
       <td>0.471351</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Knick Knack</td>
       <td>NaN</td>
       <td>John Lasseter</td>
@@ -13605,18 +13605,18 @@ memory usage: 1.4+ MB
       <td>Animation|Family</td>
       <td>1/1/89</td>
       <td>77</td>
-      <td>7.1</td>
+      <td>7.100000</td>
       <td>1989</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>9307</th>
       <td>141859</td>
       <td>tt0097446</td>
       <td>0.094652</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Goldeneye</td>
       <td>Charles Dance|Phyllis Logan|Patrick Ryecart|La...</td>
       <td>Don Boyd</td>
@@ -13624,18 +13624,18 @@ memory usage: 1.4+ MB
       <td>NaN</td>
       <td>8/26/89</td>
       <td>10</td>
-      <td>5.3</td>
+      <td>5.300000</td>
       <td>1989</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>9529</th>
       <td>13927</td>
       <td>tt0096273</td>
       <td>0.236514</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Tin Toy</td>
       <td>NaN</td>
       <td>John Lasseter</td>
@@ -13643,18 +13643,18 @@ memory usage: 1.4+ MB
       <td>Animation|Family</td>
       <td>8/1/88</td>
       <td>51</td>
-      <td>6.1</td>
+      <td>6.100000</td>
       <td>1988</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>9564</th>
       <td>24348</td>
       <td>tt0095895</td>
       <td>0.168545</td>
-      <td>2.500000e+06</td>
-      <td>5.892440e+05</td>
+      <td>2500000.000000</td>
+      <td>589244.000000</td>
       <td>Powaqqatsi</td>
       <td>NaN</td>
       <td>Godfrey Reggio</td>
@@ -13662,18 +13662,18 @@ memory usage: 1.4+ MB
       <td>Documentary|Drama|Music</td>
       <td>4/29/88</td>
       <td>18</td>
-      <td>7.2</td>
+      <td>7.200000</td>
       <td>1988</td>
-      <td>4.609728e+06</td>
-      <td>1.086502e+06</td>
+      <td>4609727.557726</td>
+      <td>1086501.722010</td>
     </tr>
     <tr>
       <th>9593</th>
       <td>46188</td>
       <td>tt0220698</td>
       <td>0.001662</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Peter Pan</td>
       <td>NaN</td>
       <td>NaN</td>
@@ -13681,18 +13681,18 @@ memory usage: 1.4+ MB
       <td>Action|Adventure|Animation|Family|Fantasy</td>
       <td>1/1/88</td>
       <td>28</td>
-      <td>6.6</td>
+      <td>6.600000</td>
       <td>1988</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>9677</th>
       <td>13926</td>
       <td>tt0093832</td>
       <td>0.253376</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Red's Dream</td>
       <td>NaN</td>
       <td>John Lasseter</td>
@@ -13700,18 +13700,18 @@ memory usage: 1.4+ MB
       <td>Animation</td>
       <td>8/17/87</td>
       <td>44</td>
-      <td>6.6</td>
+      <td>6.600000</td>
       <td>1987</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>9755</th>
       <td>48714</td>
       <td>tt0061402</td>
       <td>0.046272</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>The Big Shave</td>
       <td>NaN</td>
       <td>Martin Scorsese</td>
@@ -13719,18 +13719,18 @@ memory usage: 1.4+ MB
       <td>Drama</td>
       <td>1/1/68</td>
       <td>12</td>
-      <td>6.7</td>
+      <td>6.700000</td>
       <td>1968</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>9799</th>
       <td>48847</td>
       <td>tt0193716</td>
       <td>0.175008</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>The Amputee</td>
       <td>Catherine E. Coulson|David Lynch</td>
       <td>David Lynch</td>
@@ -13738,18 +13738,18 @@ memory usage: 1.4+ MB
       <td>NaN</td>
       <td>1/1/74</td>
       <td>11</td>
-      <td>5.0</td>
+      <td>5.000000</td>
       <td>1974</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>10386</th>
       <td>225804</td>
       <td>tt1028555</td>
       <td>0.118854</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>The Making of 'The Nightmare Before Christmas'</td>
       <td>Mike Belzer|Tim Burton|Bonita DeCarlo|Greg Dyk...</td>
       <td>NaN</td>
@@ -13757,18 +13757,18 @@ memory usage: 1.4+ MB
       <td>Documentary</td>
       <td>10/3/93</td>
       <td>15</td>
-      <td>7.5</td>
+      <td>7.500000</td>
       <td>1993</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>10426</th>
       <td>34038</td>
       <td>tt0061937</td>
       <td>0.114034</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Magical Mystery Tour</td>
       <td>John Lennon|Paul McCartney|George Harrison|Rin...</td>
       <td>NaN</td>
@@ -13776,18 +13776,18 @@ memory usage: 1.4+ MB
       <td>Music</td>
       <td>12/25/67</td>
       <td>15</td>
-      <td>5.8</td>
+      <td>5.800000</td>
       <td>1967</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>10434</th>
       <td>48784</td>
       <td>tt0060984</td>
       <td>0.146906</td>
-      <td>2.000000e+02</td>
-      <td>3.982332e+07</td>
+      <td>200.000000</td>
+      <td>39823319.793392</td>
       <td>Six Men Getting Sick</td>
       <td>NaN</td>
       <td>David Lynch</td>
@@ -13795,18 +13795,18 @@ memory usage: 1.4+ MB
       <td>Animation</td>
       <td>1/1/67</td>
       <td>16</td>
-      <td>5.2</td>
+      <td>5.200000</td>
       <td>1967</td>
-      <td>1.307353e+03</td>
-      <td>5.136436e+07</td>
+      <td>1307.352748</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>10550</th>
       <td>13925</td>
       <td>tt0091455</td>
       <td>0.306425</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Luxo Jr.</td>
       <td>NaN</td>
       <td>John Lasseter</td>
@@ -13814,18 +13814,18 @@ memory usage: 1.4+ MB
       <td>Animation|Family</td>
       <td>8/17/86</td>
       <td>81</td>
-      <td>7.3</td>
+      <td>7.300000</td>
       <td>1986</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>10659</th>
       <td>4255</td>
       <td>tt0065904</td>
       <td>0.344172</td>
-      <td>5.000000e+03</td>
-      <td>3.982332e+07</td>
+      <td>5000.000000</td>
+      <td>39823319.793392</td>
       <td>The Party at Kitty and Stud's</td>
       <td>Sylvester Stallone|Henrietta Holm|Nicholas War...</td>
       <td>Morton Lewis</td>
@@ -13833,18 +13833,18 @@ memory usage: 1.4+ MB
       <td>NaN</td>
       <td>2/10/70</td>
       <td>10</td>
-      <td>3.0</td>
+      <td>3.000000</td>
       <td>1970</td>
-      <td>2.808184e+04</td>
-      <td>5.136436e+07</td>
+      <td>28081.841720</td>
+      <td>51364363.253251</td>
     </tr>
     <tr>
       <th>10754</th>
       <td>3171</td>
       <td>tt0064064</td>
       <td>0.002757</td>
-      <td>1.462570e+07</td>
-      <td>3.982332e+07</td>
+      <td>14625701.094147</td>
+      <td>39823319.793392</td>
       <td>Bambi Meets Godzilla</td>
       <td>NaN</td>
       <td>Marv Newland</td>
@@ -13852,10 +13852,10 @@ memory usage: 1.4+ MB
       <td>Animation|Comedy</td>
       <td>1/1/69</td>
       <td>12</td>
-      <td>5.6</td>
+      <td>5.600000</td>
       <td>1969</td>
-      <td>1.755104e+07</td>
-      <td>5.136436e+07</td>
+      <td>17551039.822887</td>
+      <td>51364363.253251</td>
     </tr>
   </tbody>
 </table>
@@ -13897,7 +13897,7 @@ memory usage: 1.4+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[51]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">datetime</span> <span class="k">import</span> <span class="n">datetime</span> <span class="k">as</span> <span class="n">d</span>
@@ -13915,7 +13915,7 @@ memory usage: 1.4+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[52]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tmdb_data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -13931,7 +13931,7 @@ memory usage: 1.4+ MB
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[12]:</div>
+<div class="prompt output_prompt">Out[52]:</div>
 
 
 
@@ -13979,19 +13979,19 @@ memory usage: 1.4+ MB
       <td>135397</td>
       <td>tt0369610</td>
       <td>32.985763</td>
-      <td>150000000.0</td>
-      <td>1.513529e+09</td>
+      <td>150000000.000000</td>
+      <td>1513528810.000000</td>
       <td>Jurassic World</td>
       <td>Chris Pratt|Bryce Dallas Howard|Irrfan Khan|Vi...</td>
       <td>Colin Trevorrow</td>
-      <td>124.0</td>
+      <td>124.000000</td>
       <td>Action|Adventure|Science Fiction|Thriller</td>
       <td>6/9/15</td>
       <td>5562</td>
-      <td>6.5</td>
+      <td>6.500000</td>
       <td>2015</td>
-      <td>1.379999e+08</td>
-      <td>1.392446e+09</td>
+      <td>137999939.280026</td>
+      <td>1392445892.523800</td>
       <td>June</td>
     </tr>
     <tr>
@@ -13999,19 +13999,19 @@ memory usage: 1.4+ MB
       <td>76341</td>
       <td>tt1392190</td>
       <td>28.419936</td>
-      <td>150000000.0</td>
-      <td>3.784364e+08</td>
+      <td>150000000.000000</td>
+      <td>378436354.000000</td>
       <td>Mad Max: Fury Road</td>
       <td>Tom Hardy|Charlize Theron|Hugh Keays-Byrne|Nic...</td>
       <td>George Miller</td>
-      <td>120.0</td>
+      <td>120.000000</td>
       <td>Action|Adventure|Science Fiction|Thriller</td>
       <td>5/13/15</td>
       <td>6185</td>
-      <td>7.1</td>
+      <td>7.100000</td>
       <td>2015</td>
-      <td>1.379999e+08</td>
-      <td>3.481613e+08</td>
+      <td>137999939.280026</td>
+      <td>348161292.489031</td>
       <td>May</td>
     </tr>
     <tr>
@@ -14019,19 +14019,19 @@ memory usage: 1.4+ MB
       <td>262500</td>
       <td>tt2908446</td>
       <td>13.112507</td>
-      <td>110000000.0</td>
-      <td>2.952382e+08</td>
+      <td>110000000.000000</td>
+      <td>295238201.000000</td>
       <td>Insurgent</td>
       <td>Shailene Woodley|Theo James|Kate Winslet|Ansel...</td>
       <td>Robert Schwentke</td>
-      <td>119.0</td>
+      <td>119.000000</td>
       <td>Adventure|Science Fiction|Thriller</td>
       <td>3/18/15</td>
       <td>2480</td>
-      <td>6.3</td>
+      <td>6.300000</td>
       <td>2015</td>
-      <td>1.012000e+08</td>
-      <td>2.716190e+08</td>
+      <td>101199955.472019</td>
+      <td>271619025.407628</td>
       <td>March</td>
     </tr>
     <tr>
@@ -14039,19 +14039,19 @@ memory usage: 1.4+ MB
       <td>140607</td>
       <td>tt2488496</td>
       <td>11.173104</td>
-      <td>200000000.0</td>
-      <td>2.068178e+09</td>
+      <td>200000000.000000</td>
+      <td>2068178225.000000</td>
       <td>Star Wars: The Force Awakens</td>
       <td>Harrison Ford|Mark Hamill|Carrie Fisher|Adam D...</td>
       <td>J.J. Abrams</td>
-      <td>136.0</td>
+      <td>136.000000</td>
       <td>Action|Adventure|Science Fiction|Fantasy</td>
       <td>12/15/15</td>
       <td>5292</td>
-      <td>7.5</td>
+      <td>7.500000</td>
       <td>2015</td>
-      <td>1.839999e+08</td>
-      <td>1.902723e+09</td>
+      <td>183999919.040035</td>
+      <td>1902723129.801820</td>
       <td>December</td>
     </tr>
     <tr>
@@ -14059,19 +14059,19 @@ memory usage: 1.4+ MB
       <td>168259</td>
       <td>tt2820852</td>
       <td>9.335014</td>
-      <td>190000000.0</td>
-      <td>1.506249e+09</td>
+      <td>190000000.000000</td>
+      <td>1506249360.000000</td>
       <td>Furious 7</td>
       <td>Vin Diesel|Paul Walker|Jason Statham|Michelle ...</td>
       <td>James Wan</td>
-      <td>137.0</td>
+      <td>137.000000</td>
       <td>Action|Crime|Thriller</td>
       <td>4/1/15</td>
       <td>2947</td>
-      <td>7.3</td>
+      <td>7.300000</td>
       <td>2015</td>
-      <td>1.747999e+08</td>
-      <td>1.385749e+09</td>
+      <td>174799923.088033</td>
+      <td>1385748801.470520</td>
       <td>April</td>
     </tr>
   </tbody>
@@ -14099,7 +14099,7 @@ memory usage: 1.4+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[53]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">years_data</span> <span class="o">=</span> <span class="n">tmdb_data</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s2">&quot;release_year&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
@@ -14130,7 +14130,7 @@ memory usage: 1.4+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[54]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># To get number of movies in each year</span>
@@ -14144,7 +14144,7 @@ memory usage: 1.4+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[55]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">movie_year_count</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Number of movies in each year&#39;</span><span class="p">)</span>
@@ -14441,10 +14441,11 @@ Name: popularity, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">years_data</span><span class="p">[</span><span class="s1">&#39;revenue&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">();</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">years_data</span><span class="p">[</span><span class="s1">&#39;revenue&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Revenue&#39;</span><span class="p">);</span>
 </pre></div>
 
 </div>
@@ -14463,7 +14464,7 @@ Name: popularity, dtype: float64</pre>
 
 
 <div class="output_png output_subarea ">
-<img src="data:image/png;base64,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
+<img src="data:image/png;base64,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
 "
 >
 </div>
@@ -14590,7 +14591,7 @@ Name: revenue, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="prompt input_prompt">In&nbsp;[36]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Getting the directors name who has most movies in their name</span>
@@ -14635,7 +14636,7 @@ Name: revenue, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[34]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># To see and analyze other variables</span>
@@ -14919,26 +14920,49 @@ Name: revenue, dtype: float64</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="As-this-was-only-explore-and-analyze-the-dataset-but-not-correlating-and-implying-causes,-so-the-conclusions-include:">As this was only explore and analyze the dataset but not correlating and implying causes, so the conclusions include:<a class="anchor-link" href="#As-this-was-only-explore-and-analyze-the-dataset-but-not-correlating-and-implying-causes,-so-the-conclusions-include:">&#182;</a></h4><ul>
-    <li><b><a style="color:black" href="#req1">Over the years from 1960 to 2015:</b></a></li>
+<h4 id="Limitations">Limitations<a class="anchor-link" href="#Limitations">&#182;</a></h4><ul>
+    <li>Some of the data is incomplete and replaced by mean, so the analysis is tentative</li>
+    <li>The data contains 21 columns and most of them are irrelevant moreover we got only 10561 rows and the data in many of them were incomplete</li>
+    <li>Having an extra column stating how much money was spent on marketing, given the amount invested in reaching out to poeple may have influenced the revenue. </li>
+    <li>Voting and popularity may have sourced from irrelevant sources so that can be a limitation </li>
+    <li>Having cast and genres in the same column as a collection is a bit difficult, but I attempted to solve it by taking first genre and lead actor into consideration.</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Some-Analysis">Some Analysis<a class="anchor-link" href="#Some-Analysis">&#182;</a></h4><ul>
+    <li><b><a style="color:black" href="#req1">Trend: Over the years from 1960 to 2015:</b></a></li>
     <ul>
         <li><a style="color:black" href="#runtime">Runtime has been considerately same and there was not much difference</a></li>
         <li><a style="color:black" href="#popularity">Popularity was increased drastically, this can be explained with advent of social network promotions.</a></li>
         <li><a style="color:black" href="#revenue">Revenue collected from movies has been decreased in recent movies than earlier movies from 1960-1990 period</a></li>
 
     </ul>
-     <li><b><a style="color:black" href="#req2">Factors that involved in good revenue in movies</b></a></li>
+     <li><b><a style="color:black" href="#req2">Factors: Good revenue in movies</b></a></li>
      <ul>
         <li><a style="color:black" href="#director">Director plays a crucial role in creating a good movie, so Steven Spielberg movies were considered to get good revenue than other directors</a></li>
         <li><a style="color:black" href="#genre">Adventure movies has highest revenue than any other genre</a></li>
         <li><a style="color:black" href="#actor">Movies with Tom Hanks as lead actor got more revenue than any other actor.</a></li>
     </ul>
 </ul>
-<b>Limitations:</b>
-<ul>
-    <li>Some of the data is incomplete and replaced by mean, so the analysis is tentative</li>
-    <li>The data in dataset may have been collected from various sources and there is no assurance that the data is accurate</li>
-    <li>The analysis, exploration and associations investigated are tentative and they can be used for further statistical analysis and correlations</li>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Final-Words">Final Words<a class="anchor-link" href="#Final-Words">&#182;</a></h4><ul>
+    <li>First question, how is the trend for movies over the years, we can understand that over the years runtime has been considrate over the years.</li><li> Revenue was decreased over the years, this can be explained as the number of movies over the time also increased so people have lot more options and may not spend on single movie.</li><li> popularity obviosly increased due to advent of internet and social network or may be better marketing strategies.</li>
+    <li>Second questions, the factors that influenced good revenue.</li>
+    <li>The analysis I perfermed suggests that a proved good director will perform good in his next movie.</li>
+    <li>Movie genre greatlty influences a movie and from my analysis, adventure turned out to be best genre interms of revenue generation</li>
+    <li>A good cast or actors definetly influences a movie, considering lead actor, my analysis gave an insight that some actors are great influencers in creating a good revenue</li>
+    <li>While the correlations above might not be the exact causes and further statistical tests needed to be performed on those variables to prove the point.</li>
 </ul>
 </div>
 </div>
